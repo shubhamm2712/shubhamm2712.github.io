@@ -1,11 +1,3 @@
-/**
-* Template Name: MyResume
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -878,7 +870,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 40px 20px 40px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
@@ -923,6 +915,10 @@ section {
   transition: ease-in-out 0.3s;
 }
 
+.project-skills{
+  font-weight: 600;
+}
+
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
@@ -935,7 +931,8 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  vertical-align: middle;
+  color: #45505b;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -1095,6 +1092,11 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  margin-top: 20px;
+}
+
+.pdf-resume:hover{
+  cursor: pointer;
 }
 
 .contact .info i {
@@ -1126,14 +1128,15 @@ section {
   color: #728394;
 }
 
-.contact .info .email,
+/* .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
-}
+} */
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i ,
+.contact .info .pdf-resume:hover i{
   background: #0563bb;
   color: #fff;
 }
