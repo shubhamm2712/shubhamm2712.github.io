@@ -868,6 +868,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services img{
+  margin-top: 20px;
+  max-width: 100%;
+}
 .services .icon-box {
   text-align: center;
   padding: 40px 20px 40px 20px;
@@ -928,6 +932,10 @@ section {
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+.services .icon-box:hover h4 a{
+  color: #0563bb;
 }
 
 .services .iconbox-blue i {
